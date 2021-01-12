@@ -2,9 +2,3 @@ language: node_js
 
 node_js:
   - "10.19.0"
-
-deploy:
- provider: heroku
- api-key:
-  secure: $heruku_key
-app: mp-calculatrice
