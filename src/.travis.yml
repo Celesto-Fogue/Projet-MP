@@ -8,3 +8,8 @@ node_js:
 script:
   - yarn build
   - yarn test
+deploy:
+ provider: heroku
+ api-key:
+  secure: $heruku_key
+app: mp-calculatrice
